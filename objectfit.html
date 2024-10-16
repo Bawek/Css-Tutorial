@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            padding: 0%;
+            box-sizing: border-box;
+        }
+.a{
+    float: left;
+    width: 20%;
+    height: 100%;
+    border: 1px solid green;
+
+}
+.a p{
+    text-align: center;
+    padding: 10px;
+}
+img{
+            width: 100%;
+            height: 200px;
+            /* object-fit:scale-down;
+             */
+             object-fit: fill;
+        }
+        .a::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .a{
+            /* filter: brightness(200%); */
+            /* filter: contrast(1.5); */
+            /* filter: blur(10%); */
+            /* filter: grayscale(10); */
+            /* filter: hue-rotate(); */
+            /* filter: opacity(); */
+            /* filter: sepia(100%); */
+            /* filter: invert(10%); */
+        }
+    </style>
+</head>
+<body>
+    <div class="a"><a href="./klematis2_small.jpg"><img src="./klematis2_small.jpg" alt="pre" ></a>
+        
+        <p>Image 1</p>
+    </div>
+    <div class="a"><a href="./back.jpg"><img src="./back.jpg" alt="pre" ></a>
+        
+        <p>Image 1</p>
+    </div>
+    <div class="a"><a href=""></a>
+        <img src="./klematis3_small.jpg" alt="pre" >
+        <p>Image 1</p>
+    </div>
+    <div class="a">
+        <img src="./klematis4_big.jpg" alt="pre" >
+        <p>Image 1</p>
+    </div>
+    <div class="a">
+        <img src="./lights600x400.jpg" alt="pre" >
+        <p>Image 1</p>
+    </div>
+</body>
+</html>

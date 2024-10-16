@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midiaquery</title>
+    <style>
+*{
+    margin: 0%;
+    box-sizing: border-box;
+}
+div{
+    float: left;
+    width: 25%;
+    padding: 20px;
+
+}div::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+@media screen and (max-width : 992px) {
+  div{  width: 50%;
+}}
+@media screen and (max-width : 600px) {
+  div{  width: 100%;
+}}
+    </style>
+</head>
+<body>
+    <div style="background-color: aquamarine;
+">
+        <h1>Columen 1</h1>
+        <p>text about columen1</p>
+    </div>
+    <div style="background-color: rgb(107, 159, 142);">
+        <h1>Columen 2</h1>
+        <p>text about columen1</p>
+    </div>
+    <div style="background-color: rgba(187, 190, 87, 0.734);">
+        <h1>Columen 3</h1>
+        <p>text about columen1</p>
+    </div>
+    <div style="background-color: rgb(215, 230, 225)";>
+        <h1>Columen 4</h1>
+        <p>text about columen1</p>
+    </div>
+</body>
+</html>

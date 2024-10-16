@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            text-align: center;
+            background-color: aquamarine;
+        }
+div span{
+    visibility: hidden;
+    color: green;
+    border: 1px solid gray;
+    position: absolute;
+    /* bottom: -2px; */
+    left: 0%;
+    top: 100%;
+z-index: 1;
+}
+div:hover span{
+
+    visibility: visible;
+    color: black;
+}
+    </style>
+</head>
+<body>
+    <div>
+        hover over me <span>this is hovered text</span>
+    </div>
+</body>
+</html>

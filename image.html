@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0%;
+            box-sizing: border-box;
+            background-color: aqua;
+            
+        }
+
+.a{
+    width: 20%;
+    float: left;
+    border: 1px solid red;
+    box-shadow: 0 0 2px 3px yellow;
+}
+div p{
+    /* background-color: rgb(226, 246, 239); */
+    text-align: center;
+    padding: 10px;
+    background-color: blue;
+}
+div img:hover{
+box-shadow: 0px 0px 2px 3px red;
+}
+img{
+    width: 100%;
+    height: 200px;
+}
+@media screen and (max-width:992px){
+    .a{
+        width: 50%;
+    }
+}
+@media screen and (max-width:600px){
+    .a{
+        width: 100%;
+    }
+}
+    </style>
+</head>
+<body>
+    <div class="a"><a href="./klematis2_small.jpg"><img src="./klematis2_small.jpg" alt="pre" ></a>
+        
+        <p>Image 1</p>
+    </div>
+    <div class="a"><a href="./back.jpg"><img src="./back.jpg" alt="pre" ></a>
+        
+        <p>Image 1</p>
+    </div>
+    <div class="a"><a href=""></a>
+        <img src="./klematis3_small.jpg" alt="pre" >
+        <p>Image 1</p>
+    </div>
+    <div class="a">
+        <img src="./klematis4_big.jpg" alt="pre" >
+        <p>Image 1</p>
+    </div>
+    <div class="a">
+        <img src="./lights600x400.jpg" alt="pre" >
+        <p>Image 1</p>
+    </div>
+</body>
+</html>
